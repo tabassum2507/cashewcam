@@ -17,10 +17,10 @@ const Report = () => {
 
       <div className="report__body">
         <div className="report__body--para">Here's your grading cashew</div>
-        <img
+        {/* <img
           className="report__body--img"
           src="https://images.unsplash.com/photo-1641718111847-7e509a4dd208?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-        ></img>
+        ></img> */}
 
         <div className="report__body--icons">
           <div className="report__body--share">
@@ -29,7 +29,7 @@ const Report = () => {
           </div>
 
           <div className="report__body--download">
-            <IoArrowDownOutline />
+            <IoArrowDownOutline style={{ fontSize: "30px" }} />
             <p>Download</p>
           </div>
         </div>

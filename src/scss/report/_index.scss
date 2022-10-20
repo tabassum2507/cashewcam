@@ -1,8 +1,8 @@
 .report{
-
+   display: grid;
+   justify-content: center;
 
     &__header{
-        padding: 5%;
         height: 80px;
         background: linear-gradient(
             157.41deg,
@@ -11,12 +11,14 @@
             #7185db 70.66%
           );
 
-          &--para{
-            color: #2D194D;
-          }
-
           &--title{
             text-align: center;
           }
+
+    }
+
+    &__body--para{
+        color: #2D194D;
+
     }
 }
