@@ -29,7 +29,8 @@
     }
 
     &--img{
-      
+      height: 500px;
+      width: 300px;
     }
 
      &--icons{
@@ -54,9 +55,8 @@
 
      &--website{
       color: #2D194D;
-      font-size: 12px;
+      font-size: 14px;
       line-height: .65px;
-      letter-spacing: 0.13em;
       text-align: center;
      }
     }
