@@ -10,13 +10,13 @@ body {
       #cf79da 11.78%,
       #a87eda 36.43%,
       #7185db 70.66%
-    ); ;
+    ); 
   display: grid;
   grid-template-columns: 1fr;
   margin-inline: auto;
 
   &__header , &__start{
-    padding: 15%;
+    padding: 10%;
   }
 
   &__start {

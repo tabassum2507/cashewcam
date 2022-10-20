@@ -1,0 +1,22 @@
+.report{
+
+
+    &__header{
+        padding: 5%;
+        height: 80px;
+        background: linear-gradient(
+            157.41deg,
+            #cf79da 11.78%,
+            #a87eda 36.43%,
+            #7185db 70.66%
+          );
+
+          &--para{
+            color: #2D194D;
+          }
+
+          &--title{
+            text-align: center;
+          }
+    }
+}
