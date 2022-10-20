@@ -1,0 +1,51 @@
+@font-face {
+  font-family: rareFont;
+  src: url(../../font/RareFont2.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: rarefont;
+  font-weight: 100;
+}
+
+/* :root {
+  --body-bg: linear-gradient(
+    157.41deg,
+    #cf79da 11.78%,
+    #a87eda 36.43%,
+    #7185db 70.66%
+  );
+} */
+
+html {                                                
+  background-color: #ffffff !important;
+  display: flex;
+}
+
+.report {
+  
+
+}
+
+.report__header {
+  background-image: var(--body-bg);
+  height: 70px;
+}
+
+.report__body > img {
+  height: 400px;
+  width: 300px;
+}
+
+.report__body{
+  color: #2D194D;
+}
+
+.website {
+  color: #4677D0;
+  text-decoration: underline;
+
+}

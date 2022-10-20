@@ -1,0 +1,43 @@
+.hide {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  visibility: none;
+  z-index: -1;
+}
+
+body {
+  max-height: 1366px;
+}
+
+.camera {
+  height: 100vh;
+  width: auto;
+  display: grid;
+  justify-content: center;
+  background-color: #000;
+
+
+  &__back{
+    font-size: 30px;
+    text-align: right;
+    margin: 5px 0;
+  }
+
+  &__section {
+    margin: 20px;
+    
+  }
+
+  &__button > button {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 20px;
+    height: 50px;
+    border-radius: 17px;
+    border: none;
+    color: #e0c016;
+    background-color: #000;
+    width: 100px;
+  }
+}
