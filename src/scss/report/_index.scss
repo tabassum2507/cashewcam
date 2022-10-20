@@ -18,8 +18,47 @@
 
     }
 
-    &__body--para{
-        color: #2D194D;
+    &__body {
+      padding: 5%;
 
+      &--para{
+        color: #2D194D;
+        text-align: center;
+        letter-spacing: 0.13em;
+        font-size: 15.4368px;
     }
+
+    &--img{
+      
+    }
+
+     &--icons{
+      color: #2D194D;
+      display: flex;
+      justify-content: space-around;
+      font-size: 12px;
+      
+     }
+
+     &--i{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 25px;
+     }
+
+     &--i > p{
+      padding: 7px;
+     }
+
+     &--website{
+      color: #2D194D;
+      font-size: 12px;
+      line-height: .65px;
+      letter-spacing: 0.13em;
+      text-align: center;
+     }
+    }
+
 }
