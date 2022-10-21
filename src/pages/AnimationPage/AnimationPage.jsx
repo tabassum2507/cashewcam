@@ -22,7 +22,7 @@ const AnimationPage = () => {
         accurate grading results.
       </div>
 
-      <Link to="/Camera">
+      <Link to="/Upload">
         <div className="animation__skip">          
             Next <HiChevronRight />          
         </div>
