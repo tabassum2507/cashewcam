@@ -54,7 +54,7 @@ const Cam = () => {
           </div>
         <Camera
           onTakePhoto={handleTakePhoto}
-          idealResolution={{ width: 260, height: 500 }}
+          idealResolution={{  height: 650 }}
           isImageMirror={true} onClick={() => setUseCamera(false)}
         />
         <div className={`${!photo && "hide"}`}>
