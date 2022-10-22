@@ -1,57 +1,50 @@
-  
-.animation{
-    background: linear-gradient(
-        157.41deg,
-        #cf79da 11.78%,
-        #a87eda 36.43%,
-        #7185db 70.66%
-      );
-    
+.animation {
+  background: linear-gradient(
+    157.41deg,
+    #cf79da 11.78%,
+    #a87eda 36.43%,
+    #7185db 70.66%
+  );
 
-    padding: 20px;
-    height: 100vh;
-    width: 100vw;
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
 
+  &__back {
+    color: #fff;
+  }
 
+  &__title {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 157.5%;
+    text-align: center;
+    letter-spacing: 0.445em;
+  }
 
-    &__back {
-        color: #fff;
-      }
+  &__skip {
+    text-align: right;
+    font-weight: 100;
+    color: #fff;
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
-      &__title {
-        margin:  20px;
-        font-size: 18px;
-        font-weight: 100;
-        line-height: 157.5%;
-        text-align: center;
-        letter-spacing: 0.445em;
-      }
-    
-      &__skip{
-        text-align: right;
-        font-weight: 100;
-        color: #fff;
-        text-decoration: none !important;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-      
-    
-      }
+  &__skip > p {
+    padding-top: 15px;
+  }
 
-      &__skip >p {
-        padding-top: 15px ;
-      }
-    
-      &__video {
-        border: 0.2px solid #fff;
-        border-radius: 30px;
-        height: 70%;
-        width: 80%;
-        padding: 10%;
-        margin: 8%;
-        background: rgba(255, 255, 255, 0.1);
-      }
+  &__video {
+    border: 0.2px solid #fff;
+    border-radius: 30px;
+    height: 70%;
+    width: 80%;
+    padding: 10%;
+    margin: 8%;
+    background: rgba(255, 255, 255, 0.1);
+  }
 }
-

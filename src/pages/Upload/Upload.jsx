@@ -60,7 +60,7 @@ function Upload() {
          <div className={`${!photo && "hide"}`}>
           <img ref={refPhoto} src={photo} width="330" height="640"></img>
 
-          <div class="camera__button">
+          <div class="upload__button">
             <button onClick={handleResetPhoto}>Retake</button>
             <button onClick={fileChangeHandler}>
               <Link to="/Report" className="submit-btn">
