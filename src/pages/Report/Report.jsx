@@ -8,7 +8,7 @@ const Report = () => {
   return (
     <div className="report">
       <div className="report__header">
-        <Link to="/camera">
+        <Link to="/Upload  ">
           <HiArrowUturnLeft style={{ fontSize: "28px", color: "#fff" }}/>
         </Link>
 
