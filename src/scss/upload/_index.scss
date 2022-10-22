@@ -28,20 +28,19 @@
           text-align: center;
           letter-spacing: 0.13em;
           font-size: 15.4368px;
+          word-wrap: break-word;
+         
       }
   
    }
 
 }
 
-button{
-    margin: 40px 0;
-    height: 50px;
-    width: 250px;
-    color: #fff;
-    border-radius: 30px;
-    border: none;
-    background-color: #000;
-    cursor: pointer;
+.btn{
+   display: flex;
+   
+   margin: 50px 20px;
+   
 }
+
 

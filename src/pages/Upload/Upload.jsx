@@ -51,16 +51,13 @@ function Upload() {
           (isUseCamera ? (
             <Camera onTakePhoto={handleTakePhoto} />
           ) : (
-            <div style={{ color: "#000" }}>
-              <input type="file" onChange={handleUploadPhoto} className="btn" />
-              or
-              <button onClick={() => setUseCamera(true)}>
-                Click to use Camera
-              </button>
-            </div>
+            <div style={{ color: "#000" }} className="btn">
+              <input type="file" onChange={handleUploadPhoto} />
+              </div>
           ))}
+         
 
-        <div className={`${!photo && "hide"}`}>
+         <div className={`${!photo && "hide"}`}>
           <img ref={refPhoto} src={photo} width="350" height="640"></img>
 
           <div class="camera__button">
@@ -72,9 +69,12 @@ function Upload() {
             </button>
           </div>
         </div>
-      </div>
+      </div> 
 
       </div>
+    
+
+      
  
   );
 }
