@@ -32,7 +32,16 @@
         font-weight: 100;
         color: #fff;
         text-decoration: none !important;
-       
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      
+    
+      }
+
+      &__skip >p {
+        padding-top: 13px ;
       }
     
       &__video {

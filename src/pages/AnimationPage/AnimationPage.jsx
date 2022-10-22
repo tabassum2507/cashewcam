@@ -24,8 +24,10 @@ const AnimationPage = () => {
 
       <Link to="/Upload">
         <div className="animation__skip">          
-            Next <HiChevronRight  />          
+            <p>NEXT</p>
+            <HiChevronRight style={{ fontSize: "20px" }} />          
         </div>
+
       </Link>
     </div>
   );
