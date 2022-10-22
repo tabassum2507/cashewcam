@@ -58,7 +58,7 @@ function Upload() {
          
 
          <div className={`${!photo && "hide"}`}>
-          <img ref={refPhoto} src={photo} width="350" height="640"></img>
+          <img ref={refPhoto} src={photo} width="330" height="640"></img>
 
           <div class="camera__button">
             <button onClick={handleResetPhoto}>Retake</button>
