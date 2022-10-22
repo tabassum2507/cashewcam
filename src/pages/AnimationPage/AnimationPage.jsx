@@ -9,7 +9,7 @@ const AnimationPage = () => {
 
       <Link to="/">
       <span className="animation__back">
-        <HiArrowUturnLeft style={{ fontSize: "35px" }} />
+        <HiArrowUturnLeft style={{ fontSize: "30px" }} />
       </span>
       </Link>
       
@@ -24,7 +24,7 @@ const AnimationPage = () => {
 
       <Link to="/Upload">
         <div className="animation__skip">          
-            Next <HiChevronRight />          
+            Next <HiChevronRight  />          
         </div>
       </Link>
     </div>
